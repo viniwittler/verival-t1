@@ -1,4 +1,4 @@
-package com.seuprojeto;
+package com.beecrowd3306;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
