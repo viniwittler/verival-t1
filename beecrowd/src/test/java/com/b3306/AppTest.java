@@ -1,4 +1,4 @@
-package com.beecrowd3306;
+package com.b3306;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
