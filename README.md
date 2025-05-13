@@ -24,8 +24,10 @@ https://judge.beecrowd.com/pt/problems/view/3306
 - Valor Limite: 1 ≤ N, Q ≤ 100.000
 - Entrada: vetor de 100_000
 
-3. **Modelos**
-   
+3. **Contrato**
+- Pré-condição: 0 <= a <= b < vetor.length
+
+- Pós-condição: O resultado deve ser o maior número que divide todos os valores do intervalo [a, b]
 
 4. **Cobertura de Código**
 

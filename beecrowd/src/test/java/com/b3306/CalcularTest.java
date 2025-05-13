@@ -39,4 +39,37 @@ public class CalcularTest {
         assertEquals(1000, calcular.maximoDivisorComum(0, entrada.length - 1));
     }
 
+	// @Test
+    // void testeMDC__ValorLimiteErro() {
+    //     int[] entrada = new int[100_001];
+    //     Arrays.fill(entrada, 1000); 
+    //     Calcular calcular = new Calcular(entrada);
+
+    //     assertThrows(IllegalArgumentException.class, () -> {
+	// 		calcular.maximoDivisorComum(0, 2);
+	// 	});
+    // }
+
+	//Contrato
+	@Test
+	public void testeContrato_Invalido() {
+		int[] entrada = {4, 6, 8};
+		Calcular calcular = new Calcular(entrada);
+		
+		assertThrows(ArrayIndexOutOfBoundsException.class, () -> {
+			calcular.maximoDivisorComum(-1, 2);
+		});
+
+		assertThrows(ArrayIndexOutOfBoundsException.class, () -> {
+			calcular.maximoDivisorComum(0, 5); 
+		});
+	}
+
+	@Test
+	public void testeContrato_Valido() {
+		int[] entrada = {8, 12, 16};
+		Calcular calcular = new Calcular(entrada);
+		assertEquals(4, calcular.maximoDivisorComum(0, 2));
+	}
+
 }
