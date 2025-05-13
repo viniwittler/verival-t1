@@ -21,8 +21,9 @@ https://judge.beecrowd.com/pt/problems/view/3306
 - Saida Esperada: 6
 
 2. **Valor-Limite**
+- Valor Limite: 1 ≤ N, Q ≤ 100.000
+- Entrada: vetor de 100_000
 
-   
 3. **Modelos**
    
 

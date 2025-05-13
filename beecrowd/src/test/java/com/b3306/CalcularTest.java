@@ -33,11 +33,10 @@ public class CalcularTest {
     @Test
     void testeMDC__ValorLimite() {
         int[] entrada = new int[100_000];
-        Arrays.fill(entrada, 1000); // Todos os elementos com valor 1000
+        Arrays.fill(entrada, 1000); 
         Calcular calcular = new Calcular(entrada);
 
-        int resultado = calcular.maximoDivisorComum(0, entrada.length - 1);
-        assertEquals(1000, resultado);
+        assertEquals(1000, calcular.maximoDivisorComum(0, entrada.length - 1));
     }
 
 }
