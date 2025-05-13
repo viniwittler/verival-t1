@@ -11,9 +11,15 @@ https://judge.beecrowd.com/pt/problems/view/3306
 ## Teste Aplicados
 
 1. **Partições de Equivalência**
-- Entrada: {0, 2, 4, 6}
-- 
-   
+- Entrada: {4, 6, 8}
+- Saida Esperada: 2
+
+- Entrada: {5, 9, 14}
+- Saida Esperada: 1
+
+-Entrada: {6, 6, 6}
+-Saida Esperada: 6
+
 2. **Valor-Limite**
 
    
