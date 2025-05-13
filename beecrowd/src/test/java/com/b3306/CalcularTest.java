@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class CalcularTest {
 
     @Test
-    public void testeParticaoValida() {
+    public void testeParticao() {
         int[] vetor = {0, 2, 4, 6}; 
         Calcular processor = new Calcular(vetor);
 
