@@ -17,8 +17,8 @@ https://judge.beecrowd.com/pt/problems/view/3306
 - Entrada: {5, 9, 14}
 - Saida Esperada: 1
 
--Entrada: {6, 6, 6}
--Saida Esperada: 6
+- Entrada: {6, 6, 6}
+- Saida Esperada: 6
 
 2. **Valor-Limite**
 
