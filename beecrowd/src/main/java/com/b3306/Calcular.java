@@ -2,9 +2,13 @@ package com.b3306;
 import java.math.BigInteger;
 
 public class Calcular {
+    private static final int LIMITE = 100_000;
     private int[] vetor;
 
     public Calcular(int[] vetor) {
+        if (vetor.length > LIMITE) {
+            throw new IllegalArgumentException("O vetor excede o limite de 100.000 elementos.");
+        }
         this.vetor = vetor;
     }
 
