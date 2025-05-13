@@ -29,8 +29,9 @@ https://judge.beecrowd.com/pt/problems/view/3306
 
 - Pós-condição: O resultado deve ser o maior número que divide todos os valores do intervalo [a, b]
 
-4. **Cobertura de Código**
-
+4. **Propriedade**
+- Entrada: {5, 8}
+- Saida Esperada: 5, 8
 ---
 
 ## Ferramentas e Tecnologias
