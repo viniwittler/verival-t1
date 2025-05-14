@@ -1,8 +1,6 @@
 package com.b3306;
-
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-
 import java.util.Arrays;
 
 public class CalcularTest {
@@ -31,7 +29,7 @@ public class CalcularTest {
 
     //Valor Limite
     @Test
-    void testeMDC__ValorLimite() {
+    public void testeMDC__ValorLimite() {
         int[] entrada = new int[100_000];
         Arrays.fill(entrada, 1000); 
         Calcular calcular = new Calcular(entrada);
@@ -41,7 +39,7 @@ public class CalcularTest {
 
 	//Contrato
 	@Test
-	public void testeContrato() {
+	public void testeMDC_Contrato() {
 		int[] entrada = {4, 6, 8};
 		Calcular calcular = new Calcular(entrada);
 		
