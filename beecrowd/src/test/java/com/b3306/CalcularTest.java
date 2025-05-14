@@ -57,7 +57,7 @@ public class CalcularTest {
 		
 	//propriedade
 	@Test
-	public void testePropriedade() {
+	public void testeMDC_Propriedade() {
 		int[] vetor = {5, 8};
 		Calcular calcular = new Calcular(vetor);
 		assertEquals(5, calcular.maximoDivisorComum(0, 0));
